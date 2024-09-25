@@ -1,0 +1,74 @@
+.card-container{
+    /* border: 2px solid red; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.7);
+    width:30%;
+    min-width: 300px;
+    transition: all 0.5s ease;
+}
+.card-container:hover{
+    transform: translateY(-5px);
+    box-shadow: 3px 3px 10px rgba(0,0,0, 0.8);
+}
+.card-details {
+    padding: 10px;
+    
+}
+
+.card-details .card-name-ratings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    h2{
+        flex-basis: 45%;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+}
+
+.card-name-ratings .ratings{
+    font-size: 25px;
+    color: goldenrod;
+}
+
+.card-details .location{
+    font-size: 16px;
+    margin-top: 7px;
+    color: #666;
+    i{
+        margin-right: 4px;
+        font-size: 20px;
+        color: #071660;
+    }
+}
+
+.card-details .code{
+    margin-top: 5px;
+    color: #666;
+
+}
+
+.cuisine{
+    margin-top: 1rem;
+    background-color: #d5ecfd;
+    padding: 10px;
+    color: #2ec700;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+.cuisine-name{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 5px;
+}

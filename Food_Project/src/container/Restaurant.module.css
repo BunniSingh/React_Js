@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+.filter-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 500;
+}
+.byName{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline:none;
+    font-size: 16px;
+    &:focus{
+        background-color: #99f1ff;
+    }
+}
+
+.rating{
+    width: 4rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline:none;
+    font-size: 16px;
+    &:focus{
+        background-color: #99f1ff;
+    }
+}
+
+.container{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
